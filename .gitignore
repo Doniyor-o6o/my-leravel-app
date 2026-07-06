@@ -1,66 +1,27 @@
-# Laravel
-/vendor
-/node_modules
-
-# Environment files
+*.log
+.DS_Store
 .env
-.env.*
-!.env.example
-
-# Laravel storage
-/storage/*.key
-/storage/logs/*
-!/storage/logs/.gitignore
-
-/storage/framework/cache/*
-!/storage/framework/cache/.gitignore
-
-/storage/framework/sessions/*
-!/storage/framework/sessions/.gitignore
-
-/storage/framework/testing/*
-!/storage/framework/testing/.gitignore
-
-/storage/framework/views/*
-!/storage/framework/views/.gitignore
-
-# Bootstrap cache
-/bootstrap/cache/*
-!/bootstrap/cache/.gitignore
-
-# Public
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.codex
+/.cursor/
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/fonts-manifest.dev.json
 /public/hot
 /public/storage
-
-# PHPUnit
-.phpunit.cache
-.phpunit.result.cache
-
-# Composer
-composer.phar
-
-# NPM
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# IDE
-.vscode/
-.idea/
-
-# OS
-.DS_Store
+/storage/*.key
+/storage/pail
+/vendor
+_ide_helper.php
+Homestead.json
+Homestead.yaml
 Thumbs.db
-desktop.ini
-
-# Temporary files
-*.log
-*.tmp
-*.temp
-*.swp
-*.swo
-*~
-
-# Coverage
-coverage/
